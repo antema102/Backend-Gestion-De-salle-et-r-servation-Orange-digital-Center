@@ -28,7 +28,7 @@ Ce projet est un backend pour la gestion des salles à l'Orange Digital Center M
 ## API Endpoints
 
 - `GET /api/salles` - Récupère toutes les salles disponibles.
-- `GET /api/salles/:id` - Récupère les détails d'une salle spécifique.
+- `GET /api/salles/:id` - Récupère les détails d'une salle spécifique. 
 - `POST /api/reservations` - Crée une nouvelle réservation.
 - `PUT /api/reservations/:id` - Met à jour une réservation existante.
 - `DELETE /api/reservations/:id` - Supprime une réservation existante.
