@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "6523facff01f0b148b5cef43"
+  },
+  "nomSalle": "Nosy Faly",
+  "capaciteSalle": 20,
+  "couleurSalle": "red",
+  "created_date": {
+    "$date": "2023-10-09T13:06:23.261Z"
+  },
+  "rect": {
+    "id": "NosyFaly-2",
+    "dataName": "NosyFaly",
+    "className": "cls-34",
+    "x": "169.56",
+    "y": "41.33",
+    "width": "94.5",
+    "height": "184.56"
+  },
+  "text": {
+    "id": "NosyFaly-3",
+    "dataName": "NosyFaly",
+    "className": "cls-10",
+    "transform": "translate(179.29 133.89)",
+    "tspan": {
+      "className": "cls-29",
+      "x": "0",
+      "y": "0",
+      "content": "Nosy Faly"
+    },
+    "__v": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6523fb06f01f0b148b5cef63"
+  },
+  "nomSalle": "Salle Event",
+  "capaciteSalle": 99,
+  "couleurSalle": "purple",
+  "created_date": {
+    "$date": "2023-10-09T13:07:18.855Z"
+  },
+  "rect": {
+    "id": "SalleEvent-2",
+    "dataName": "SalleEvent",
+    "x": "169.56",
+    "y": "308.39",
+    "width": "189",
+    "height": "229",
+    "className": "cls-34"
+  },
+  "text": {
+    "id": "SalleEvent-3",
+    "dataName": "SalleEvent",
+    "transform": "translate(214.72 428.42)",
+    "tspan": {
+      "className": "cls-29",
+      "x": "0",
+      "y": "0",
+      "content": "Salle Event"
+    },
+    "className": "cls-4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6523fadbf01f0b148b5cef4b"
+  },
+  "nomSalle": "Nosy Iranja",
+  "capaciteSalle": 50,
+  "couleurSalle": "blue",
+  "created_date": {
+    "$date": "2023-10-09T13:06:35.609Z"
+  },
+  "rect": {
+    "id": "NosyIranja-2",
+    "dataName": "NosyIranja",
+    "className": "cls-34",
+    "x": "264.06",
+    "y": "41.33",
+    "width": "94.5",
+    "height": "185.44"
+  },
+  "text": {
+    "id": "NosyIranja-3",
+    "dataName": "NosyIranja",
+    "className": "cls-9",
+    "transform": "translate(275.7 133.44) scale(.83 1)",
+    "tspan": {
+      "className": "cls-29",
+      "x": "0",
+      "y": "0",
+      "content": "Nosy Iranja"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6523fae9f01f0b148b5cef53"
+  },
+  "nomSalle": "Nosy Ankao",
+  "capaciteSalle": 85,
+  "couleurSalle": "green",
+  "created_date": {
+    "$date": "2023-10-09T13:06:49.231Z"
+  },
+  "rect": {
+    "id": "NosyAnkao-2",
+    "dataName": "NosyAnkao",
+    "className": "cls-34",
+    "x": "169.56",
+    "y": "226.78",
+    "width": "94.5",
+    "height": "82.67"
+  },
+  "text": {
+    "id": "NosyAnkao-3",
+    "dataName": "NosyAnkao",
+    "className": "cls-6",
+    "transform": "translate(183 274.31) scale(.78 1)",
+    "tspan": {
+      "className": "cls-29",
+      "x": "0",
+      "y": "0",
+      "content": "Nosy Ankao"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6523faf9f01f0b148b5cef5b"
+  },
+  "nomSalle": "Nosy Sakatia",
+  "capaciteSalle": 29,
+  "couleurSalle": "yellow",
+  "created_date": {
+    "$date": "2023-10-09T13:07:05.713Z"
+  },
+  "rect": {
+    "id": "NosySakatia-2",
+    "dataName": "NosySakatia",
+    "className": "cls-34",
+    "x": "264.06",
+    "y": "226.78",
+    "width": "94.5",
+    "height": "82.67"
+  },
+  "text": {
+    "id": "NosySakatia-3",
+    "dataName": "NosySakatia",
+    "className": "cls-6",
+    "transform": "translate(274.69 274.31) scale(.74 1)",
+    "tspan": {
+      "className": "cls-29",
+      "x": "0",
+      "y": "0",
+      "content": "Nosy Sakatia"
+    }
+  }
+}]

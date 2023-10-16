@@ -22,7 +22,7 @@ Ce projet est un backend pour la gestion des salles à l'Orange Digital Center M
 1. Assurez-vous d'avoir Node.js et MongoDB installés localement.
 2. Clonez ce référentiel sur votre machine.
 3. Exécutez `npm install` pour installer toutes les dépendances.
-4. Configurez les variables d'environnement requises dans un fichier `.env` en vous basant sur le fichier `.env.example`.
+4. Importer le fichier `CRMdb.salles.json` dans la base de donne Mongod collection salle.
 5. Exécutez `npm start` pour démarrer le serveur.
 
 ## API Endpoints
