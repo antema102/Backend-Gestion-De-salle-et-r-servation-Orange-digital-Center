@@ -22,17 +22,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/CRMdb', {
 });
 
 
-// Connexion à MongoDB
-// mongoose.connect('mongodb://127.0.0.1:27017/CRMdb', {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// })
-//   .then(() => {
-//     console.log('Connecté à MongoDB');
-//   })
-//   .catch((error) => {
-//     console.error('Erreur de connexion à MongoDB :', error);
-//   });
 
 //bodyparser
 app.use(bodyParser.urlencoded({ extended: true}));

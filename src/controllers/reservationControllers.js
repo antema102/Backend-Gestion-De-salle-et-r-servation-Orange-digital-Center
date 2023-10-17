@@ -36,7 +36,6 @@ const formatDate = (date) => {
 // Créer la date au format souhaité
 const formattedDate = `${year}-${month}-${day} ${hours}:${minutes}`;
 
-console.log(formattedDate); // Affiche la date au format "YYYY-MM-DD HH:mm"
 return formatDate;
 }
 /*POST*/
@@ -218,27 +217,3 @@ export const getReservationsBySalle = (req, res) => {
         });
 };
 
-/*Filtre reservation par date*/
-export const getReservationsByDateAndSalle = (salle,start,fin) => {
-    //const salleID = req.body.salleID;
-    //const startDate = new Date(req.body.startDate); // Date de début du filtre
-   // const endDate = new Date(req.body.endDate); // Date de fin du filtre
-
-    const salleID = salle ;
-    const startDate = start; // Date de début du filtre
-    const endDate = fin;
-
-    // Effectuez la requête pour trouver les réservations en fonction de la salle et de la plage de dates
-    Reservation.find({
-        salleID: salleID,
-        heur_debut: { $gte: startDate }, // Date de début doit être supérieure ou égale à startDate
-        heur_fin: { $lte: endDate } // Date de fin doit être inférieure ou égale à endDate
-    })
-    .populate('salleID')
-    .then((reservations) => {
-        return (reservations);
-    })
-    .catch((error) => {
-       return error;
-    });
-};
