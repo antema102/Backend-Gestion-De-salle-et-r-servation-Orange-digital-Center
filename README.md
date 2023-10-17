@@ -1,16 +1,15 @@
+# Gestion de Salles - Orange Digital Center Madagascar
 
-# Gestion de salles - Orange Digital Center Madagascar
-
-Ce projet est un backend pour la gestion des salles à l'Orange Digital Center Madagascar. Il permet de gérer les réservations de salles, les informations sur les salles disponibles, les détails des réservations actives, etc.
+Ce projet est un backend pour la gestion des salles à l'Orange Digital Center Madagascar. Il fournit des fonctionnalités pour la gestion des réservations de salles, la visualisation des détails des salles disponibles, la création et la suppression de réservations, ainsi que la gestion de l'authentification des utilisateurs.
 
 ## Fonctionnalités
 
 - Gestion des réservations de salles
-- Visualisation des détails de la salle
-- Création, modification et suppression des réservations
-- Vérification de la disponibilité des salles
+- Visualisation des détails des salles disponibles
+- Création, mise à jour et suppression de réservations
+- Authentification des utilisateurs
 
-## Technologies utilisées
+## Technologies Utilisées
 
 - Node.js
 - Express.js
@@ -22,26 +21,35 @@ Ce projet est un backend pour la gestion des salles à l'Orange Digital Center M
 1. Assurez-vous d'avoir Node.js et MongoDB installés localement.
 2. Clonez ce référentiel sur votre machine.
 3. Exécutez `npm install` pour installer toutes les dépendances.
-4. Importer le fichier `CRMdb.salles.json` dans la base de donne Mongod collection salle.
-5. Exécutez `npm start` pour démarrer le serveur.
+4. Configurez les variables d'environnement requises, le cas échéant.
+5. Exécutez `npm start` pour lancer le serveur.
 
 ## API Endpoints
 
-- `GET /api/salles` - Récupère toutes les salles disponibles.
-- `GET /api/salles/:id` - Récupère les détails d'une salle spécifique. 
-- `POST /api/reservations` - Crée une nouvelle réservation.
-- `PUT /api/reservations/:id` - Met à jour une réservation existante.
-- `DELETE /api/reservations/:id` - Supprime une réservation existante.
+### Salles
+
+- `GET /salle` - Récupère toutes les salles disponibles.
+- `GET /salle/:salleId` - Récupère les détails d'une salle spécifique.
+- `POST /salle` - Ajoute une nouvelle salle.
+- `PUT /salle/:salleId` - Met à jour les informations d'une salle.
+- `DELETE /salle/:salleId` - Supprime une salle.
+
+### Réservations
+
+- `GET /reservation` - Récupère toutes les réservations.
+- `GET /reservation/:reservationId` - Récupère les détails d'une réservation spécifique.
+- `POST /reservation` - Crée une nouvelle réservation.
+- `PUT /reservation/:reservationId` - Met à jour les informations d'une réservation.
+- `DELETE /reservation/:reservationId` - Supprime une réservation.
+
+### Authentification
+
+- `POST /inscription` - Crée un nouveau compte utilisateur.
+- `POST /connexion` - Connecte un utilisateur existant.
 
 ## Contribution
 
 Les contributions à ce projet sont les bienvenues. Assurez-vous de discuter des changements que vous souhaitez apporter en créant une "issue" ou en ouvrant une "pull request".
 
 ## Auteurs
-
-- Antema Nirina - [Antema](Email : antema103@gmail.com)
-- Francky Keyzia - [Francky](Email : franckykezya05@gmail.com )
-
-## Licence
-
-Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT). Voir le fichier `LICENSE` pour plus de détails.
+- Antema Nirina - antema103@gmail.com
